@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+}
+
+.wrapper {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #191919;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden
+}
+
+button,
+input {
+    overflow: visible;
+}
+
+input,
+button {
+    font: inherit;
+    margin: 0;
+}
+
+[type=submit],
+button,
+[type=reset] {
+    -webkit-appearance: none;
+}
+
+h1 {
+    margin: .67em 0;
+}
+
+// label{
+//     cursor: default;
+// }
+
+@import 'details';
+@import 'register';
+@import 'login';
+@import 'cart';

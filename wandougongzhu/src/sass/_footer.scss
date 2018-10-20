@@ -1,0 +1,183 @@
+#pagebottom {
+    // position: absolute;
+    //bottom: 100;
+    // left: 0;
+    width: 100%;
+    height: 498px;
+}
+
+#pagebottom-white {
+    position: relative;
+    width: 100%;
+    background: #ffffff;
+    box-sizing: border-box;
+}
+
+a {
+    color: #191919;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.promise-truth {
+    display: block;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    padding: 40px 0;
+    border-bottom: 1px solid #efefef;
+}
+
+.promise-item {
+    float: left;
+    line-height: 24px;
+    margin: 0 61px;
+}
+
+.promise-item-icom {
+    width: 46px;
+    height: 46px;
+    position: relative;
+    float: left;
+    margin-right: 13px;
+
+    >img {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+}
+
+.promise-item-info {
+    overflow: hidden;
+    margin-left: 12px;
+}
+
+.promise-item-title {
+    font-size: 20px;
+    letter-spacing: 0.33px;
+}
+
+.content-one,
+.content-two {
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 0.33px;
+}
+
+.company-info {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    padding-top: 31px;
+    padding-bottom: 36px;
+}
+
+.company-logo {
+    float: left;
+    position: relative;
+    top: 18px;
+}
+
+.company-lnto,
+.company-logo,
+.company-qrcode {
+    padding: 0 54px;
+}
+
+.logo-box {
+    width: 160px;
+    height: 50px;
+    position: relative;
+
+    >img {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+}
+
+.contact-us {
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin-top: 39px;
+}
+
+.contact-title {
+    font-size: 14px;
+    display: inline-block;
+    position: relative;
+    top: -25%;
+}
+
+.contact-wx,
+.contact-xl {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+
+    >img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.company-lnto {
+    width: 545px;
+    height: 155px;
+    overflow: hidden;
+    white-space: normal;
+    font-size: 14px;
+    float: left;
+    letter-spacing: 0.33px;
+    border-right: 1px solid #efefef;
+    border-left: 1px solid #efefef;
+    background-color: #ffffff;
+    line-height: 25px;
+    padding-top: 28px;
+}
+
+.company-qrcode {
+    position: relative;
+    float: left;
+    top: 3px;
+}
+
+.qrcode-box {
+    width: 110px;
+    height: 148px;
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+}
+
+.qrcode-img {
+    width: 110px;
+    height: 110px;
+
+    >img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.app-down-red {
+    color: #ea4141;
+}
+
+#pagebottom-black {
+    overflow: hidden;
+    width: 100%;
+    background: #000000;
+    text-align: center;
+    color: #ffffff;
+    line-height: 2;
+    padding: 10px 0;
+    font-size: 12px;
+}

@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+.c-goods-n-view {
+    width: 1200px;
+    height: 300px;
+    position: relative;
+    margin-top: 10px;
+    display: block;
+    float: left;
+}
+
+.c-goods-n-pre {
+    width: 35px;
+    height: 55px;
+    position: absolute;
+    left: -45px;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+    z-index: 11;
+    cursor: pointer;
+
+    >img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.c-goods-n-next {
+    width: 35px;
+    height: 55px;
+    position: absolute;
+    right: -45px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    overflow: hidden;
+    z-index: 111;
+    cursor: pointer;
+
+    >img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.c-goods-n-view-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.c-goods-group-scoll-box {
+    min-width: 1200px;
+    height: 100%;
+    position: relative;
+}
+
+.c-goods-n-item {
+    width: 191px;
+    height: 300px;
+    position: relative;
+    background: #ffffff;
+    margin-right: 10px;
+    box-sizing: border-box;
+    padding: 10px 10px 13px 10px;
+    display: block;
+    float: left;
+}
+
+.c-goods-n-img-box {
+    width: 171px;
+    height: 171px;
+    position: relative;
+    overflow: hidden;
+
+    >img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.c-goods-n-act-icon {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    bottom: 0;
+    left: 0;
+
+    >img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.c-goods-n-slogan {
+    width: 100%;
+    font-size: 16px;
+    color: #191919;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.c-goods-n-name {
+    width: 100%;
+    height: 40px;
+    color: #191919;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 6px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.c-godos-n-price {
+    width: 100%;
+    color: #ea4141;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 6px;
+}

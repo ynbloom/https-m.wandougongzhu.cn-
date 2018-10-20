@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+#mainNav {
+    width: 100%;
+    height: 38px;
+    background: #ffffff;
+    position: relative;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .14);
+    z-index: 2;
+}
+
+.main-nav {
+    height: 38px;
+}
+
+.main-cats {
+    float: left;
+    width: 258px;
+    z-index: 1;
+
+    &:hover {
+        >.main-cat-nav {
+            display: block;
+        }
+    }
+}
+
+.main-cat-nav {
+    position: absolute;
+    width: 258px;
+    background: #ffffff;
+    z-index: 1;
+    display: none;
+}
+
+//鼠标经过全部菜单分类的时候
+// .main-cats:hover>.main-cat-nav {
+//     display: block
+// }
+
+.main-cats-label {
+    width: 100%;
+    height: 100%;
+    line-height: 38px;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+    background: #191919;
+    cursor: pointer;
+
+    .main-cats-label-img {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        display: none;
+        top: 50%;
+        left: 0;
+        margin-top: -15px;
+    }
+
+    .main-cats-label-arrow {
+        width: 8px;
+        height: 5px;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        background: url(https://s3.wandougongzhu.cn/s/4d/Triangle_89fa57.png) no-repeat;
+        background-size: contain;
+        margin-top: -3px;
+        display: none;
+
+    }
+}
+
+.fixed-logo {
+    float: left;
+    display: none;
+
+    >img {
+        height: 35px;
+        margin-right: 20px;
+        margin-top: 1px;
+        display: block;
+    }
+}
+
+.main-tabs {
+    float: left;
+    height: 38px;
+
+    .tab-item {
+        float: left;
+        padding: 0 25px;
+
+        a {
+            padding: 4px 2px;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 38px;
+            cursor: pointer;
+        }
+
+        .cur-page {
+            color: #EA4141;
+            border-bottom: 2px solid #EA4141;
+        }
+
+        >a:hover {
+            color: #EA4141;
+            border-bottom: 2px solid #EA4141
+        }
+    }
+}
+
+.fixed-search-bar {
+    float: right;
+    display: none;
+    height: 100%;
+
+    .search-form {
+        position: relative;
+        float: right;
+        width: 190px;
+        height: 100%;
+    }
+
+    input {
+        position: absolute;
+        width: 160px;
+        height: 25px;
+        top: 50%;
+        margin-top: -12.5px;
+        left: 0;
+        font-size: 14px;
+        color: #191919;
+        border: none;
+        border-bottom: 1px solid #191919;
+    }
+
+    button {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        top: 50%;
+        margin-top: -12px;
+        right: 0;
+        background: url(https://s.wandougongzhu.cn/s/75/s_cea703.png) no-repeat;
+        background-size: contain;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+.fixed-cart {
+    height: 100%;
+    width: 24px;
+    margin-left: 40px;
+    float: right;
+    background: url(https://s3.wandougongzhu.cn/s/9d/_e3649e.png) no-repeat;
+    background-size: 22px 25px;
+    background-position: center;
+
+}

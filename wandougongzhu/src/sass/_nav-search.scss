@@ -1,0 +1,107 @@
+ #pagehead {
+
+     .page-head {
+         height: 160px;
+         padding: 46px 0 50px 0;
+         box-sizing: border-box;
+         color: #ffffff;
+     }
+
+     .logo {
+         float: left;
+         width: 170px;
+         height: 54px;
+         background: url(https://s5.wandougongzhu.cn/s/42/logo_b3fe22.png) no-repeat;
+         left: 0;
+         background-size: contain;
+     }
+
+     .search-box {
+         position: relative;
+         margin-left: 235px;
+         display: inline-block;
+
+         .search-ul {
+             display: block;
+             position: absolute;
+             width: 100%;
+             border: 1px solid #cdcdcd;
+             border-top: none;
+             background: #fff;
+             top: 33px;
+             left: 2px;
+             max-height: 316px;
+             overflow: hidden;
+         }
+     }
+
+     .search-form {
+         box-sizing: border-box;
+         width: 511px;
+         height: 36px;
+         border: 2px solid #191919;
+
+         input {
+             width: 440px;
+             height: 31px;
+             font-size: 14px;
+             line-height: 22px;
+             padding: 4px 10px;
+             box-sizing: border-box;
+             border: none;
+         }
+
+         button {
+             width: 66px;
+             height: 36px;
+             position: absolute;
+             right: 0;
+             top: 0;
+             background: #191919 url(https://s1.wandougongzhu.cn/s/f5/search_8922ed.png) no-repeat center;
+             background-size: 21px;
+             cursor: pointer;
+             border: none;
+             outline: 0;
+
+
+         }
+     }
+
+     .cart {
+         >i {
+             display: block;
+             width: 25px;
+             height: 25px;
+             margin: 0 auto;
+             background: url(https://s4.wandougongzhu.cn/s/9d/cart_e3649e.png) no-repeat;
+             background-size: contain;
+         }
+     }
+ }
+
+ .sug-box {
+     position: absolute;
+     left: 0;
+     top: 33px;
+     z-index: 9;
+     display: none;
+ }
+
+ .sug-wrap {
+     box-sizing: border-box;
+     border-width: 0 1px 1px;
+     width: 360px;
+     border: solid #cccccc;
+     background-color: #ffffff;
+ }
+
+ .page-head-right {
+     position: absolute;
+     top: 10px;
+     right: 0;
+
+ }
+
+ a {
+     color: #191919;
+ }

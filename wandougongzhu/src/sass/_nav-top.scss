@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+#topnav {
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    font-size: 12px;
+    background: #191919;
+    color: #ffffff;
+    margin: 0 auto;
+
+    .top-nav-left {
+        float: left;
+        position: relative;
+
+        &:hover {
+            >.top-nav-qrcode {
+                display: block;
+            }
+        }
+    }
+
+    .top-nav-left-text {
+        padding-left: 19px;
+        background: url(https://s.wandougongzhu.cn/s/af/icon_phone_70d313.png) no-repeat 0 center;
+        background-size: 11px 17px;
+        cursor: pointer;
+
+    }
+
+    .top-nav-qrcode {
+        display: none;
+        width: 160px;
+        height: 206px;
+        background: #ffffff;
+        font-size: 14px;
+        line-height: 20px;
+        border: 1px solid #efefef;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        z-index: 1;
+
+        >img {
+            width: 150px;
+            height: 150px;
+            margin-top: 5px;
+        }
+    }
+
+    .top-nav-qrcode-angle {
+        width: 0;
+        height: 0;
+        position: absolute;
+        margin-left: -8px;
+        top: -16px;
+        left: 50%;
+        border: 8px solid transparent;
+        border-bottom-color: #ffffff;
+
+
+    }
+
+    .top-nav-qrcode-desc {
+        color: #141414;
+    }
+
+    .top-nav-qrcode-desc2 {
+        color: #ea4141;
+    }
+
+    .top-nav-right {
+        float: right;
+
+        >a,
+        >div {
+            display: inline-block;
+            padding: 0 10px;
+            color: #ffffff;
+            cursor: pointer;
+        }
+
+        >i {
+            width: 1px;
+            height: 14px;
+            position: relative;
+            top: 3px;
+            display: inline-block;
+            background: #cccccc;
+
+        }
+
+        .top-nav-auth {
+            >a {
+                color: #ffffff;
+            }
+        }
+
+        .top-nav-auth-menu {
+            >a {
+                color: #ffffff;
+            }
+        }
+    }
+
+    /*  .top-nav-ucenter:after{
+        width: 0;
+        height: 0;
+        border: 8px solid transparent;
+        border-top-color: #ffffff;
+
+    } */
+    /* .top-nav-ucenter-title-icon{
+        width: 8px;
+        height: 5px;
+        display: inline-block;position: relative;
+        margin-left: 2px;
+    } */
+    /* .top-nav-ucenter{
+        &:hover{
+            .top-nav-ucenter-content{
+                display: block;
+            }
+        }
+    } */
+    /*  .top-nav-ucenter-content{
+        position: absolute;
+        background: #ffffff;
+        color: #191919;
+        width: 150px;
+        margin-left: -50px;
+        text-align: center;
+        border: 1px solid #efefef;
+        display: none;
+    } */
+    /* .top-nav-ucenter-list{
+        display: block;
+        border: 1px solid #e1e1e1;
+    } */
+    /*   &:hover{
+        background: #fafafa;
+    } */
+}
